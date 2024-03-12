@@ -1,0 +1,16 @@
+
+GET http://localhost:8080/
+
+### GET all tutorials
+GET http://localhost:8080/api/tutorials
+
+### POST tutorial
+POST http://localhost:8080/api/tutorials
+Content-Type: application/json
+
+{
+    "title": "Hosting your MERN App on Azure",
+    "description": "How to host your MERN App on the Azure App Service",
+    "published": true
+}
+
